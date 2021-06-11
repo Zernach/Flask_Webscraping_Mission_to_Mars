@@ -2,23 +2,23 @@ import datetime as dt
 
 def scrape_all():
 
-    news_title = 'Testing'
-    news_paragraph = 'Testing'
-    featured_image = 'https://linktoimage.png'
-    mars_facts = 'Testing'
-    news_title = 'Testing'
+    news_title = 'Testing Title'
+    news_paragraph = 'Testing Paragraph'
+    featured_image = 'http://peoplelovescience.com/wp-content/uploads/2017/08/21151729_1326742644090307_971208679029560636_n-2.jpg'
+    mars_facts = 'Testing Facts Table'
+
     hemispheres_list_of_dicts = [
         {"title": "Title of Hemisphere Image",
-        "img_url": 'https://linktoimage.png'},
+        "img_url": 'http://peoplelovescience.com/wp-content/uploads/2017/08/21151729_1326742644090307_971208679029560636_n-2.jpg'},
 
         {"title": "Title of Hemisphere Image",
-        "img_url": 'https://linktoimage.png'},
+        "img_url": 'http://peoplelovescience.com/wp-content/uploads/2017/08/21151729_1326742644090307_971208679029560636_n-2.jpg'},
 
         {"title": "Title of Hemisphere Image",
-        "img_url": 'https://linktoimage.png'},
+        "img_url": 'http://peoplelovescience.com/wp-content/uploads/2017/08/21151729_1326742644090307_971208679029560636_n-2.jpg'},
         
         {"title": "Title of Hemisphere Image",
-        "img_url": 'https://linktoimage.png'},
+        "img_url": 'http://peoplelovescience.com/wp-content/uploads/2017/08/21151729_1326742644090307_971208679029560636_n-2.jpg'},
     ]
 
     scraped_data = {
