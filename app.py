@@ -20,5 +20,9 @@ def scrape():
     mars_db.update({}, scraped_data, upsert=True)
     return redirect('/')
 
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('404.html'), 404
+
 if __name__ == "__main__":
     app.run(debug=True) # set to false if deploying to a live website server (such as Google Cloud, Heroku, or AWS Elastic Beanstaulk)
